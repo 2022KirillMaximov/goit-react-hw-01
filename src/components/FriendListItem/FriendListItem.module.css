@@ -1,0 +1,28 @@
+.list {
+  width: 70px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.title {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.Status {
+  margin: auto;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.isOnline {
+  color: rgb(8, 244, 8);
+}
+
+.isOffline {
+  color: red;
+}
