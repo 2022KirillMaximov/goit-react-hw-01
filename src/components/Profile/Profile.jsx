@@ -1,6 +1,6 @@
-import css from './Profil.module.css';
+import css from './Profile.module.css';
 
-export default function Profil({ name,
+export default function Profile({ name,
     tag,
     location,
     image,

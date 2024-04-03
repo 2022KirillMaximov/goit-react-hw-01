@@ -4,16 +4,14 @@ import transactions from "../../transactions.json"
 
 
 import FriendList from "../FriendList/FriendList";
-import Profil from "../Profil/Profil"
+import Profile from "../Profile/Profile"
 import TransactionHistory from "../TransactionHistory/TransactionHistory"
 
 export default function App() {
 
-
-
   return (
     <>
-    <Profil 
+    <Profile 
         name={userData.username}
         tag={userData.tag}
         location={userData.location}

@@ -1,4 +1,5 @@
 import css from "./TransactionHistory.module.css";
+import clsx from "clsx";
 
 export default function TransactionHistory({ items }) {
   return (
@@ -14,9 +15,7 @@ export default function TransactionHistory({ items }) {
       {items.map(({ id, type, amount, currency }, index) => (
         <tbody className={css.tbody} key={id}>
           <tr
-            className={
-              (css.colorBgWhite, index % 2 ? css.cellBgGrey : css.cellBgWhite)
-            }
+            className={ clsx(css.colorBgWhite, index % 2 ? css.cellBgGrey : css.cellBgWhite)}
           >
             <td className={css.cell}>{type}</td>
             <td className={css.cell}>{amount}</td>
